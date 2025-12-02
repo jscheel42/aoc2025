@@ -72,13 +72,13 @@ function part2(input: string): number {
 }
 
 // Read input file
-// const input = readFileSync(join(import.meta.dir, "sample.txt"), "utf-8");
+const input = readFileSync(join(import.meta.dir, "sample.txt"), "utf-8");
 // const input = readFileSync(join(import.meta.dir, "sample2.txt"), "utf-8");
-const input = readFileSync(join(import.meta.dir, "input.txt"), "utf-8");
+// const input = readFileSync(join(import.meta.dir, "input.txt"), "utf-8");
 
 // Solve and print result
-// const result_1 = part1(input);
-// console.log("Part 1:", result_1);
+const result_1 = part1(input);
+console.log("Part 1:", result_1);
 const result_2 = part2(input);
 console.log("Part 2:", result_2);
 
