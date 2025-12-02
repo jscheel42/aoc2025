@@ -2,18 +2,18 @@ import { readFileSync } from "fs";
 import { join } from "path";
 
 function part1(input: string): number {
-  const lines = input.trim().split("\n");
-  
-  // Example: Sum all numbers in the input
-  let sum = 0;
-  for (const line of lines) {
-    const num = parseInt(line, 10);
-    if (!isNaN(num)) {
-      sum += num;
+    const lines = input.trim().split("\n");
+
+    // Example: Sum all numbers in the input
+    let sum = 0;
+    for (const line of lines) {
+        const num = parseInt(line, 10);
+        if (!isNaN(num)) {
+            sum += num;
+        }
     }
-  }
-  
-  return sum;
+
+    return sum;
 }
 
 // Read input file

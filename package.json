@@ -1,11 +1,11 @@
 {
-  "name": "aoc2025",
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "day1": "bun run days/1/main.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "^1.3.3"
-  }
+    "name": "aoc2025",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "day1": "bun run days/1/main.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "^1.3.3"
+    }
 }
